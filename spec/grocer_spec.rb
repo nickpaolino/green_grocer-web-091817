@@ -74,7 +74,7 @@ describe "Grocer" do
         expect(@avocado_result["AVOCADO"][:count]).to eq(0)
       end
 
-      it "remembers if the item was on clearance" do
+      it " the item was on clearance" do
         expect(@avocado_result["AVOCADO W/COUPON"][:clearance]).to eq(true)
       end
 
